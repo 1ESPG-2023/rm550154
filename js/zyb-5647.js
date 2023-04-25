@@ -106,4 +106,12 @@ function mudaCor(){
 
 }
 
-mudaCor();
+//Função ALTERA BANNER
+function alteraBanner(){
+
+    let nr = Math.round(Math.random() * 3);
+    let caminho = `./css/img/banner-lateral-${nr}.png`;
+    const img1 = document.querySelector(".l-e > img")
+    img1.src = caminho;
+}
+alteraBanner()

@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: 60vh;
+    height: auto;
     background-color: red;
 }
 
@@ -24,7 +24,6 @@
     flex-grow: 5;
     background-color: coral;
 }
-
 .container .l-d{
     flex-grow: 5;
     background-color: plum;
