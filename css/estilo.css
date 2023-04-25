@@ -1,10 +1,10 @@
-.cabecalho{
+.cabeçalho{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 20vh;
-    background-color: darkcyan;
+    background-color: teal;
     color: #fff;
 }
 
@@ -13,23 +13,19 @@
     justify-content: space-between;
     width: 100vw;
     height: 60vh;
-    background-color: mediumaquamarine;
-
-}
-
-.container .central{
-    
-    flex-grow: 5;
-    background-color: darkseagreen;
-
-}
-.container .l-e{
-    
-    flex-grow: 1;
     background-color: red;
 }
 
+.container .central{
+    flex-grow: 5;
+}
+
+.container .l-e{
+    flex-grow: 5;
+    background-color: coral;
+}
+
 .container .l-d{
-    flex-grow: 1;
-    background-color: crimson;
+    flex-grow: 5;
+    background-color: plum;
 }
